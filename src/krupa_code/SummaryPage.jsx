@@ -18,8 +18,6 @@ function SummaryPage() {
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-oGZk0eubL_gLlpxV86QRlabIvVn3C4l-4Q&s" alt="photo 4" />
         <img src="https://abrsm.in/img/gallery/1726241591.jpg" alt="photo 5" />
         <img src="https://media.assettype.com/newindianexpress%2F2024-08%2Fe6b5e32d-fca4-4165-b3e0-eb688adaf637%2FNEP%20fosters.jpg?rect=346%2C0%2C1189%2C669" alt="photo 6" />
-        
-
       </div>
     </div>
   );

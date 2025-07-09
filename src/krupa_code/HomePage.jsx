@@ -12,18 +12,24 @@ function HomePage() {
       {/* Stats Section */}
       <div className="stats-section">
         <div className="stat-box">
-          <h3>States</h3>
           <p>27</p>
+          <h3>States</h3>
         </div>
         <div className="stat-box">
-          <h3>Districts</h3>
           <p>443</p>
+          <h3>Districts</h3>
         </div>
         <div className="stat-box">
-          <h3>Participants</h3>
-          <p>Total: 2385</p>
-          <p>Male: 2105</p>
-          <p>Female: 280</p>
+          <p>2385</p>
+          <h3>Total Participants</h3>
+        </div>
+        <div className="stat-box">
+          <p>2105</p>
+          <h3>Male Participants</h3>
+        </div>
+        <div className="stat-box">
+          <p>280</p>
+          <h3>Female Participants</h3>
         </div>
       </div>
 
@@ -39,6 +45,10 @@ function HomePage() {
             src="https://www.takeonedigitalnetwork.com/wp-content/uploads/2023/07/Akhil-Bharatiya-Rashtriya-Shaikshik-Mahasangh-organises-Azadi-Ka-Amrit-Mahotsav.jpg"
             alt="Conference Photo 2"
           />
+          <img
+            src="https://www.tripurastarnews.com/wp-content/uploads/2024/09/22-09-2024-Akhil-Bharatiya-Rashtriya-Shaikshik-Mahasangh-Tripura-Organized-6th-Annual-General-Meeting.Pic-1-1024x684.jpeg"
+            alt="Conference Photo 3"
+           />
         </div>
       </div>
     </div>

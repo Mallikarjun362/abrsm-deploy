@@ -3,9 +3,10 @@ import React from "react";
 
 function AcademicPage() {
   return (
+    <section className="mysection">
+    <h1>Academic Sessions and propounders of the subject</h1>
     <div className="page row-layout">
       <div className="text">
-        <h2>Academic Sessions and propounders of the subject</h2>
         <ul>
           <li>Bhartiya Social Vision: Prof Chand Kiran Saluja</li>
           <li>Bhartiya Educational Vision: Prof Aniruddha Deshpande</li>
@@ -15,6 +16,7 @@ function AcademicPage() {
       </div>
       <img src={"https://www.baps.org/Data/Sites/1/Media/GalleryImages/26531/WebImages/29_2023_01_02_BUS_P0650.jpg"} alt="Academic Session" />
     </div>
+    </section>
   );
 }
 
