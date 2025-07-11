@@ -3,6 +3,10 @@ header img {
   width: 20px;
 }
 
+header h3 {
+  text-align: center;
+}
+
 /* ================================================================================ */
 .body {
   background-color: #f8f9fa;
