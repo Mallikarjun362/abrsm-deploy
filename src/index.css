@@ -1,12 +1,64 @@
+header {
+  justify-content: space-between;
+  background-color: #f4c430;
+  align-items: center;
+  text-align: center;
+  color: white;
+  display: flex;
+  padding: 20px 5%;
+}
+
+header p {
+  color: #e67e27;
+  font-weight: bold;
+}
+
 header img {
   aspect-ratio: 1;
-  width: 20px;
+  width: 200px;
+  height: 200px;
+  flex: 0;
+  box-shadow: none;
 }
 
 header h3 {
   text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+/* ================================================================= */
+.hero-section {
+  display: flex;
+  align-items: stretch;
+  justify-content: start;
+  padding: 0 5%;
+  gap: 50px;
 }
 
+.hero-section > * {
+  flex: 1;
+}
+
+.hero-section > .hero-right {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-section > .hero-right > img {
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  object-fit: cover;
+}
+
+.hero-section p {
+  font-size: 16px;
+  flex:0,
+}
+.hero-section h5 {
+  font-size: 30px;
+}
 /* ================================================================================ */
 .body {
   background-color: #f8f9fa;
@@ -73,15 +125,7 @@ header h3 {
 .card-number.danger {
   color: #dc3545;
 }
-.orange-header {
-  background-color: #f4c430;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-.orange-header .text-primary {
-  color: #ffeeb5 !important;
-}
+
 .side {
   padding: 20px;
   text-align: center;
@@ -146,7 +190,6 @@ header h3 {
   color: #6c757d;
 }
 
-
 /* ========================================================================================================= */
 body {
   width: 100vw;
@@ -179,31 +222,30 @@ h1 {
 /* =================================================== */
 /* Stats Section */
 .stats-section {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
   background-color: #f1f5f9;
-  padding: 20px;
   border-radius: 10px;
   margin-bottom: 40px;
+  flex-wrap: wrap;
+  display: flex;
+  padding: 20px;
   gap: 20px;
 }
 
 .stat-box {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
-  height: 250px;
-  flex: 1;
-  aspect-ratio: 1;
-  align-items: center;
-  display: flex;
+  transition-duration: 500ms;
   justify-content: center;
   flex-direction: column;
-  min-width: 200px;
+  border-radius: 10px;
+  align-items: center;
   text-align: center;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  transition-duration: 500ms;
+  display: flex;
+  height: 300px;
+  padding: 0 50px;
+  flex: 1;
+  min-width: fit-content;
 }
 
 .stat-box:hover {
@@ -218,7 +260,7 @@ h1 {
 
 .stat-box p {
   margin: 4px 0;
-  font-size: 70px;
+  font-size: 50px;
   font-weight: bold;
 }
 

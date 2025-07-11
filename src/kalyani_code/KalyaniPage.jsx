@@ -1,3 +1,5 @@
+import HeroSection from "./HeroSection";
+
 export default function KalyaniPage() {
   return (
     <>
@@ -14,79 +16,43 @@ export default function KalyaniPage() {
         <div className="text-center mb-3">
           <h5 className="highlight-pink mt-2">Swatantrata ka Amrit Mahotsav</h5>
         </div>
+        <br />
+        <br />
+        {/* HERO SECTION */}
+        <HeroSection />
+        <br />
+        <br />
 
-        <div className="row align-items-center mb-4 px-3 px-md-0">
-          <div className="col-md-8">
-            <h5 className="orange-title">
-              Bharat Mata Poojan and Commemoration of Freedom Fighters' Families
-            </h5>
-            <p>
-              Bharat Mata Poojan and commemoration of the family of Freedom
-              Fighters/soldiers Commemoration of the family of the freedom
-              fighters/soldiers and Bharat Mata Poojan in the schools across the
-              country on the same day (1st August, 2022). Gathering of students,
-              teachers and citizens at the public square before the program.
-              Entourage with tricolour; Meeting in the School; Presentation of
-              the Subject; conferment of the honour; gifting the Portrait of
-              Bharat Mata and worship-aarti of Bharat Mata.
-            </p>
-          </div>
-          <div className="col-md-4 text-center">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bharat_Mata_statue_2.jpg/2560px-Bharat_Mata_statue_2.jpg"
-              alt="Bharat Mata"
-              className="content-image"
-              height="150"
-              width="200"
-            />
-            <p className="text-muted mt-2">Bharat Mata Poojan</p>
-          </div>
-        </div>
-
-        <div className="cards-wrapper mb-5">
+        <div>
           <h6 className="text-center fw-bold mb-4">Participation Summary</h6>
-          <div className="row justify-content-center g-4">
-            <div className="col-auto">
-              <div className="card">
-                <div className="card-number">21</div>
-                <div className="card-title">States</div>
-              </div>
+          <div className="stats-section">
+            <div className="stat-box">
+              <p>21</p>
+              <h3>States</h3>
             </div>
-            <div className="col-auto">
-              <div className="card">
-                <div className="card-number">542</div>
-                <div className="card-title">Districts</div>
-              </div>
+            <div className="stat-box">
+              <p>542</p>
+              <h3>Districts</h3>
             </div>
-            <div className="col-auto">
-              <div className="card">
-                <div className="card-number">2,10,380</div>
-                <div className="card-title">Places</div>
-              </div>
+            <div className="stat-box">
+              <p>2,10,380</p>
+              <h3>Places</h3>
             </div>
-            <div className="col-auto">
-              <div className="card">
-                <div className="card-number success">8,43,749</div>
-                <div className="card-title">Teachers</div>
-              </div>
+            <div className="stat-box">
+              <p>8,43,749</p>
+              <h3>Teachers</h3>
             </div>
-            <div className="col-auto">
-              <div className="card">
-                <div className="card-number success">1,39,83,196</div>
-                <div className="card-title">Students</div>
-              </div>
+            <div className="stat-box">
+              <p>1,39,83,196</p>
+              <h3>Students</h3>
             </div>
-            <div className="col-auto">
-              <div className="card">
-                <div className="card-number success">33,23,247</div>
-                <div className="card-title">Citizens</div>
-              </div>
+            <div className="stat-box">
+              <p>33,23,247</p>
+              <h3>Citizens</h3>
             </div>
-            <div className="col-auto">
-              <div className="card">
-                <div className="card-number danger">7,868</div>
-                <div className="card-title text-danger">Honoured Families</div>
-              </div>
+            <div className="stat-box">
+              <p>7,868</p>
+              <h3>Honoured Families</h3>
             </div>
           </div>
         </div>
@@ -134,38 +100,26 @@ export default function KalyaniPage() {
           of the quad fountain heads-"Believe in Bharat, know Bharat, Be Bharat,
           and build Bharat" (between 15th August 2022 to 26th January 2023)
         </p>
-        <div className="cards-wrapper mb-4">
-          <div className="row justify-content-center g-4">
-            <div className="col-auto">
-              <div className="card">
-                <div className="card-number">1041</div>
-                <div className="card-title">Colleges</div>
-              </div>
-            </div>
-            <div className="col-auto">
-              <div className="card">
-                <div className="card-number">2,44,635</div>
-                <div className="card-title">Participants</div>
-              </div>
-            </div>
-            <div className="col-auto">
-              <div className="card">
-                <div className="card-number success">46,845</div>
-                <div className="card-title">Teachers</div>
-              </div>
-            </div>
-            <div className="col-auto">
-              <div className="card">
-                <div className="card-number success">1,45,740</div>
-                <div className="card-title">Students</div>
-              </div>
-            </div>
-            <div className="col-auto">
-              <div className="card">
-                <div className="card-number success">52,050</div>
-                <div className="card-title">Citizens</div>
-              </div>
-            </div>
+        <div className="stats-section">
+          <div className="stat-box">
+            <p>1041</p>
+            <h3>Colleges</h3>
+          </div>
+          <div className="stat-box">
+            <p>2,44,635</p>
+            <h3>Participants</h3>
+          </div>
+          <div className="stat-box">
+            <p>46,845</p>
+            <h3>Teachers</h3>
+          </div>
+          <div className="stat-box">
+            <p>1,45,740</p>
+            <h3>Students</h3>
+          </div>
+          <div className="stat-box">
+            <p>52,050</p>
+            <h3>Citizens</h3>
           </div>
         </div>
 
@@ -205,20 +159,15 @@ export default function KalyaniPage() {
           National level Research conferences on various aspects of Swaraj-75 in
           the universities
         </p>
-        <div className="cards-wrapper mb-4">
-          <div className="row justify-content-center g-4">
-            <div className="col-auto">
-              <div className="card">
-                <div className="card-number">46</div>
-                <div className="card-title">Universities</div>
-              </div>
-            </div>
-            <div className="col-auto">
-              <div className="card">
-                <div className="card-number success">9,660</div>
-                <div className="card-title">Participants</div>
-              </div>
-            </div>
+
+        <div className="stats-section">
+          <div className="stat-box">
+            <p>46</p>
+            <h3>Universities</h3>
+          </div>
+          <div className="stat-box">
+            <p>9,660</p>
+            <h3>Participants</h3>
           </div>
         </div>
 
@@ -260,24 +209,14 @@ export default function KalyaniPage() {
           </p>
 
           {/* <!-- Reduced Square Statistic Cards --> */}
-          <div className="container my-4">
-            <div className="row justify-content-center g-4">
-              <div className="col-md-auto">
-                <div className="card text-center p-3">
-                  <div className="stat-number display-5 fw-bold">7000</div>
-                  <div>
-                    <strong>Trees planted this year:</strong>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-auto">
-                <div className="card text-center p-3">
-                  <div className="stat-number display-5 fw-bold">3200</div>
-                  <div>
-                    <strong>Participant teachers:</strong>
-                  </div>
-                </div>
-              </div>
+          <div className="stats-section">
+            <div className="stat-box">
+              <p>7000</p>
+              <h3>Trees planted this year</h3>
+            </div>
+            <div className="stat-box">
+              <p>3200</p>
+              <div>Participant teachers</div>
             </div>
           </div>
         </div>

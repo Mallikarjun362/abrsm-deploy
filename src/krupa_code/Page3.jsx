@@ -48,16 +48,19 @@ const Page3 = () => {
         <h3 className="section-heading orange">
           Varsh Pratipada (Offering of Best Wishes and conferences)
         </h3>
-        <div className="data-row">
-          <span>
-            Place: <b>285</b>
-          </span>
-          <span>
-            Program: <b>1870</b>
-          </span>
-          <span>
-            Participants: <b>57970</b>
-          </span>
+        <div className="stats-section">
+          <div className="stat-box">
+            <h3>Place</h3>
+            <p>285</p>
+          </div>
+          <div className="stat-box">
+            <h3>Program</h3>
+            <p>1870</p>
+          </div>
+          <div className="stat-box">
+            <h3>Participants</h3>
+            <p>57970</p>
+          </div>
         </div>
         <div className="image-row">
           <img

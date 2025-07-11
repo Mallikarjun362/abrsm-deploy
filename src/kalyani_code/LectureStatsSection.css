@@ -1,0 +1,93 @@
+.lecture-section {
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fbff;
+  border-top: 4px solid #ec6d1b;
+  border-bottom: 4px solid #ec6d1b;
+}
+
+.lecture-header-stripe {
+  width: 100%;
+  background-color: #ec6d1b;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.lecture-header-text {
+  font-size: 26px;
+  color: white;
+  margin: 0;
+  font-weight: bold;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.lecture-content {
+  text-align: center;
+  padding: 30px 20px 50px;
+}
+
+.lecture-description {
+  font-size: 16px;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto 5px;
+  line-height: 1.6;
+}
+
+.lecture-date {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.stats-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.stat-card-v2 {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 50px 70px;
+  min-width: 160px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.stat-card-v2:hover {
+  transform: translateY(-5px);
+}
+
+.stat-value-v2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.stat-label-v2 {
+  font-size: 25px;
+  color: #0366d6;
+}
+
+/* Color classes for numbers */
+.red {
+  color: red;
+}
+
+.purple {
+  color: purple;
+}
+
+.green {
+  color: green;
+}
+
+.orange {
+  color: orange;
+}
