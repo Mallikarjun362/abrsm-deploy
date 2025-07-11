@@ -4,7 +4,7 @@ import React from "react";
 function AcademicPage() {
   return (
     <section className="mysection">
-    <h1>Academic Sessions and propounders of the subject</h1>
+    <h3>Academic Sessions and propounders of the subject</h3>
     <div className="page row-layout">
       <div className="text">
         <ul>

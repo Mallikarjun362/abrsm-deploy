@@ -12,12 +12,14 @@ function SummaryPage() {
         
       </ul>
       <div className="image-grid">
-        <img src="https://pbs.twimg.com/media/GP2M8TrbsAAJsun?format=jpg&name=large" alt="Photo 1" />
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH2DyO4SDbfCZdjJU0qGoPn5IFvz56bcUiZg&s" alt="Photo 2" />
-        <img src="https://organiser.org/wp-content/uploads/2023/10/20231002131049.jpg" alt="Photo 3" />
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-oGZk0eubL_gLlpxV86QRlabIvVn3C4l-4Q&s" alt="photo 4" />
-        <img src="https://abrsm.in/img/gallery/1726241591.jpg" alt="photo 5" />
-        <img src="https://media.assettype.com/newindianexpress%2F2024-08%2Fe6b5e32d-fca4-4165-b3e0-eb688adaf637%2FNEP%20fosters.jpg?rect=346%2C0%2C1189%2C669" alt="photo 6" />
+        <img src="https://organiser.org/wp-content/uploads/2023/10/20231002131049.jpg" alt="Photo 1" />
+        <img src="https://static.pib.gov.in/WriteReadData/userfiles/image/L4pic1XQ4K.jpg" alt="Photo 2" />
+        <img src="https://www.tripurastarnews.com/wp-content/uploads/2024/09/22-09-2024-Akhil-Bharatiya-Rashtriya-Shaikshik-Mahasangh-Tripura-Organized-6th-Annual-General-Meeting.Pic-1.jpeg" alt="Photo 3" />
+        </div>
+        <div className="image-grid">
+        <img src="https://www.tripurastarnews.com/wp-content/uploads/2024/09/22-09-2024-Akhil-Bharatiya-Rashtriya-Shaikshik-Mahasangh-Tripura-Organized-6th-Annual-General-Meeting.Pic-4-1024x684.jpeg" alt="photo 4" />
+        <img src="https://www.tripurastarnews.com/wp-content/uploads/2024/09/22-09-2024-Akhil-Bharatiya-Rashtriya-Shaikshik-Mahasangh-Tripura-Organized-6th-Annual-General-Meeting.Pic-3-1024x684.jpeg" alt="photo 5" />
+        <img src="https://www.tripurastarnews.com/wp-content/uploads/2024/09/22-09-2024-Akhil-Bharatiya-Rashtriya-Shaikshik-Mahasangh-Tripura-Organized-6th-Annual-General-Meeting.Pic-2-1024x684.jpeg" alt="photo 6" />
       </div>
     </div>
   );

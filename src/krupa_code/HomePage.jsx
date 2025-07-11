@@ -33,7 +33,7 @@ function HomePage() {
         </div>
       </div>
 
-      {/* Images Section */}
+      {/* image section */}
       <div className="image-section">
         
         <div className="image-row">
@@ -41,10 +41,7 @@ function HomePage() {
             src="https://www.tripurastarnews.com/wp-content/uploads/2024/09/22-09-2024-Akhil-Bharatiya-Rashtriya-Shaikshik-Mahasangh-Tripura-Organized-6th-Annual-General-Meeting.Pic-4-1024x684.jpeg"
             alt="Conference Photo 1"
           />
-          <img
-            src="https://www.takeonedigitalnetwork.com/wp-content/uploads/2023/07/Akhil-Bharatiya-Rashtriya-Shaikshik-Mahasangh-organises-Azadi-Ka-Amrit-Mahotsav.jpg"
-            alt="Conference Photo 2"
-          />
+          
           <img
             src="https://www.tripurastarnews.com/wp-content/uploads/2024/09/22-09-2024-Akhil-Bharatiya-Rashtriya-Shaikshik-Mahasangh-Tripura-Organized-6th-Annual-General-Meeting.Pic-1-1024x684.jpeg"
             alt="Conference Photo 3"
